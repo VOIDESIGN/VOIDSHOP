@@ -74,7 +74,7 @@ Assicurati di configurare l'account Formspree per ricevere le email degli ordini
 ## Contatti
 
 Per supporto o modifiche, contatta:  
-[tuo indirizzo email o info di contatto]
+void.slash.design@gmail.com
 
 ---
 
