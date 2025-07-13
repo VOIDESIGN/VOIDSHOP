@@ -1,80 +1,65 @@
 # voidshop
 
-**Pagina web per la vendita degli articoli del brand void//**
+**voidshop** è una semplice pagina web statica per raccogliere ordini dei prodotti del brand **void//**.  
+Il sito presenta gli articoli disponibili e include un modulo di ordinazione collegato a [Formspree](https://formspree.io/), così puoi ricevere ordini direttamente via email.
 
 ---
 
-## Descrizione
-
-Questa è una semplice pagina web statica che presenta i prodotti del brand **void//** e permette agli utenti di ordinare tramite un modulo di contatto collegato a [Formspree](https://formspree.io/).
-
----
-
-## Prodotti inclusi
+## 🛍️ Prodotti disponibili
 
 - **VOID// T-Shirt “Eclipse”**  
-  Taglie: S, M, L, XL, 2XL, 3XL  
-  Colori: Marrone, Nero, Navy, Arancione
+  - Taglie: S – 3XL  
+  - Colori: Marrone, Nero, Navy, Arancione
 
 - **VOID// Classic Cap (scritta bianca)**  
-  Colori: Black, Navy, Cranberry, Spruce, Dark Gray, Khakhi, Stone, Pink, Light Blue
+  - Colori: Black, Navy, Cranberry, Spruce, Dark Gray, Khakhi, Stone, Pink, Light Blue
 
 - **VOID// Classic Cap (scritta nera)**  
-  Colori: Cranberry, Khakhi, Stone, Pink, Light Blue, White
+  - Colori: Cranberry, Khakhi, Stone, Pink, Light Blue, White
 
 - **VOID// Minimal Backpack “Stream”**  
-  Prodotto unico
+  - Unico modello
 
-- **VOID// Clear Case “Shadow” (scritta nera)**  
-  Compatibile con iPhone 12 - 16 Pro Max
+- **VOID// Clear Case “Shadow”** (scritta nera)  
+  - iPhone compatibili: 12 – 16 Pro Max
 
-- **VOID// Clear Case “Glare” (scritta bianca)**  
-  Compatibile con iPhone 12 - 16 Pro Max
+- **VOID// Clear Case “Glare”** (scritta bianca)  
+  - iPhone compatibili: 12 – 16 Pro Max
 
 - **VOID// Glitch Pants “Pixelwave”**  
-  Taglie: 2XS, XS, S, M, L, XL, 2XL, 3XL, 4XL, 5XL, 6XL
+  - Taglie: 2XS – 6XL
 
 - **VOID// Crossbody Bag “Flux”**  
-  Unisex
+  - Taglia unica, unisex
 
 ---
 
-## Come usare
+## 🌐 Come visualizzare la pagina
 
-1. Apri il file `index.html` in un browser o caricalo su un hosting web (es. GitHub Pages, Netlify, Vercel).  
-2. Gli utenti possono visualizzare i prodotti e compilare il modulo d'ordine.  
-3. Gli ordini vengono inviati tramite [Formspree](https://formspree.io/) all'indirizzo email configurato.  
+Puoi aprire direttamente il file `index.html` in un browser o pubblicarlo gratuitamente con uno dei seguenti metodi:
 
----
+### Opzione 1 – GitHub Pages
 
-## Come pubblicare gratuitamente
+1. Crea un repository su GitHub.
+2. Carica il file `index.html` (e altre eventuali risorse).
+3. Vai su **Settings > Pages** e seleziona il branch (es. `main`) e la cartella (`/root` o `/docs`).
+4. Salva: GitHub genererà un link pubblico (es: `https://tuonome.github.io/voidshop`).
 
-- **GitHub Pages**  
-  Crea un repository GitHub, carica il file `index.html`, quindi attiva GitHub Pages dalle impostazioni del repository.
+### Opzione 2 – Netlify
 
-- **Netlify**  
-  Registra un account gratuito su [Netlify](https://netlify.com), trascina il file `index.html` o la cartella del progetto nella dashboard per pubblicare.
+1. Registrati su [Netlify](https://netlify.com).
+2. Trascina la cartella del tuo progetto nella dashboard.
+3. Netlify genererà un link pubblico (es. `https://voidshop.netlify.app`).
 
-- **Vercel**  
-  Simile a Netlify, con hosting gratuito per siti statici.
+### Opzione 3 – Vercel
 
----
-
-## Configurazione del modulo
-
-Il form di ordinazione usa Formspree come backend per la ricezione degli ordini.  
-
-L'attributo `action` nel form è già impostato su:  
-`https://formspree.io/f/mdkdnzny`
-
-Assicurati di configurare l'account Formspree per ricevere le email degli ordini.  
+1. Vai su [vercel.com](https://vercel.com) e importa il progetto da GitHub.
+2. Pubblica il sito in pochi clic.
 
 ---
 
-## Contatti
+## 📬 Come ricevere gli ordini
 
-Per supporto o modifiche, contatta:  
-void.slash.design@gmail.com
-
----
+Questa pagina utilizza **Formspree** per inviare gli ordini compilati al tuo indirizzo email.  
+Il modulo HTML è già collegato a questo endpoint:
 
